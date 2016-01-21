@@ -1,0 +1,39 @@
+The view function attached to each page
+The model (melons.py) function calls (if any) for a given page
+The template for a page
+
+
+1. melons
+    1. /melons
+    2. list_melons
+    3. all_melons.html
+
+2. details
+    1. /melon/<int:melon_id>
+    2. show_melon(melon_id)
+    3. melon_details.html
+
+3. cart
+    1. /cart
+    2. shopping_cart
+    3. cart.html
+
+4. add_to_cart
+    1. /add_to_cart/<int:id>
+    2. add_to_cart
+    3. oh this needs to be implemented!
+
+5.  login GET
+    1. /login
+    2. show_login
+    3. login.html
+
+6.  login POST
+    1. /login
+    2. process_login
+    3. oh this needs to be implemented!
+
+7.  checkout
+    1. /checkout
+    2. checkout
+    3. /melons
